@@ -22,13 +22,13 @@ poetry install
 Invoke-Expression(poetry env activate)
 ```
 
-3. Train the model using the following command:
+3. Train the model using the following command
 
 ```shell
 python src/train.py
 ```
 
-3. Start the Streamlit app using the following command:
+3. Start the Streamlit app using the following command
 
 ```shell
 streamlit run src/main.py
