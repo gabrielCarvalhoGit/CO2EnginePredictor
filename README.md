@@ -9,17 +9,22 @@ This project uses the ‘scikit-learn’ library to train a machine learning mod
 
 ## Installation
 
-Install dependencies using Poetry
+Install dependencies using Poetry:
 
-'''bash
+```shell
 poetry install
+```
 
 ## How to run the project
 
 1. Train the model using the following command:
 
-```bash
+```shell
 python src/train.py
+```
 
 2. Start the Streamlit app using the following command:
+
+```shell
 streamlit run src/main.py
+```
